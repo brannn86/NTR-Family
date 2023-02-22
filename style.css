@@ -1,0 +1,61 @@
+body {
+    font-family: 'Gloock', sans-serif;
+    background-color: #fff;
+}
+
+@keyframes anim {
+    0%      {color: black;}
+    25%     {color: #4d4d4d;}
+    50%     {color: rgb(173, 173, 173);}
+    75%     {color: rgb(77, 77, 77);}
+    100%    {color: black;}
+}
+
+.title {
+    margin-top: 150px;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.motto  {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.image {
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 380px;
+    margin-right: 380px;
+    margin-bottom: 150px;
+}
+
+a.discord {
+    margin-left: 600px;
+    margin-right: 600px;
+    font-size: 100px;
+    text-align: center;
+    color: black;
+    border: 10px;
+    text-decoration: none;
+    transition: ease 600ms;
+}
+
+a.discord:hover {
+    color: #5865f2;
+    width: 300px;
+}
+
+pre {
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
